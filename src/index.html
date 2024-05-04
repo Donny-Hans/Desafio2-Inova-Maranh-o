@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="./style/style1.css">
+
+
+</head>
+
+<body>
+    <header class="cabecalho">
+        <nav class="cabecalho__menu">
+            <a class="cabecalho__menu__link" href="login.html">login</a>
+        </nav>
+    </header>
+    <div class="container">
+        <div class="form">
+            <h1>Inscreva-se</h1>
+            <form id="form">
+                <input type="text" name="nome"  class="campo__formulario" placeholder="Digite seu nome completo"required>
+                    <input type="email" name="email" class="campo__formulario" id="email" placeholder="Digite seu e-mail" required>
+                    <input type="number" name="cpf"  class="campo__formulario" id="cpf" placeholder="Digite seu cpf"required>
+                    <input type="password" name="senha" class="campo__formulario" id="senha" placeholder="Crie sua senha" required>
+                    <input type="tel" name="telefone" class="campo__formulario" id="telefone" placeholder="Informe seu telefone"required>
+                    <input type="text" name="endereco" class="campo__formulario"id="endereco" placeholder="Informe seu endereço"required>
+                    <input type="text" name="cidade"  class="campo__formulario"  id="cidade" placeholder="Informe sua cidade"required>
+                <div>
+                    <span class="alerta">Atençao: Todos os dados acima sao obrigatorios</span>
+                </div>
+                <button class="botao-enviar" type="submit">enviar</button>
+                <button type="reset" class="botao-cancelar">cancelar</button>
+            </div>
+            </form>
+            <img class="Imagem__logo" src="img/inovalogo.png">
+        </div>
+</body>
+</html>

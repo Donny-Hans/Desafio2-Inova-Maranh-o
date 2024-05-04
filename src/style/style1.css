@@ -1,0 +1,104 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background: #F37820;
+}
+body h1{
+    text-align: center;
+}
+
+.cabecalho{
+    display: flex;
+    justify-content:center;
+}
+.cabecalho__menu{
+    display: flex;
+}
+.cabecalho__menu__link{
+    font-size: 1.3rem;
+    font-weight: 300;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    border-radius: 20px;
+    background-color: #000000;
+    text-decoration: none;
+    padding: 2px;
+    color: #FFFAF2;
+}
+
+.container{
+    display: flex;
+    width: 1536px;
+    height: 1042px;
+    padding-top: 35px;
+    padding-left: 131px;
+    padding-bottom: 35px;
+}
+.form__login{
+    display: flex;
+    flex-direction: column;
+    background-color:#FFFFFF;
+    border: 20px;
+    padding: 20px;
+    width: 747px; 
+    height: 400px;
+    border: 1px solid #000000;
+    text-align: center;
+    border-radius: 20px;
+
+}
+
+.campo__formulario{
+    width: 663px; 
+    height: 65px; 
+    background: #FFFAF2; 
+    border-radius: 10px; 
+    margin-right: 27px;
+    margin-left: 30px;
+    margin-bottom: 16px;
+    padding-left: 22px;
+}
+
+.campo__formulario__login{
+    width: 300px; 
+    height: 50px; 
+    background: #FFFAF2; 
+    border-radius: 10px; 
+    margin-right: 27px;
+    margin-left: 30px;
+    margin-bottom: 16px;
+    padding-left: 22px;
+}
+
+.Imagem__logo{
+    display: flex;
+    width: 841px; 
+    height: 840px; 
+}
+.alerta{
+    color: #FF1E1E;
+}
+.botao-enviar{
+    margin-top: 10px;
+    align-items: center;
+    width: 250px;
+    height: 40px;
+    font-size: 14px;
+    border-radius: 8px;
+    color: #FFFFFF;
+    background-color: #FF9F76;
+    margin-right: 15px;
+}
+
+.botao-cancelar{
+    width: 250px;
+    height: 40px;
+    font-size: 14px;
+    border-radius: 8px;
+    background-color: #FFFFFF;
+    color: #FF9F76;
+}
